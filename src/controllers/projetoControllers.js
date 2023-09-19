@@ -1,5 +1,4 @@
-import projetos from "../models/projetos";
-import projetos from "../models/projetos";
+import projetos from "../models/projetos.js";
 
 class ProjetoController {
 
