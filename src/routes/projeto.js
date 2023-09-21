@@ -8,7 +8,7 @@ router
 .post("/",ProjetoController.createProjetos)
 .put("/:id",ProjetoController.updateProjetos)
 .delete("/:id",ProjetoController.deleteProjetos)
-
+.get("/:id",ProjetoController.getById)
 
 export default router;
 
